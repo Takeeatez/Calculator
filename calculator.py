@@ -18,7 +18,7 @@ class Calculator:
         return a - b
 
     def multiply(self, a, b):
-        return 1  # Placeholder
+        return a * b
 
 
 if __name__ == "__main__":
