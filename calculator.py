@@ -14,7 +14,10 @@ class Calculator:
             return self.divide(a, b)
 
     def divide(self, a, b):
-        return 1  # Placeholder
+        if b != 0:
+            return a / b
+        else:
+            raise ValueError("Cannot divide by zero")
 
     def add(self, a, b):
         return a + b
