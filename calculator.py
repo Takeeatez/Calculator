@@ -4,7 +4,11 @@ class Calculator:
         print("Calculator initialized")
 
     def calculate(self, operation, a, b):
-        pass
+        if operation == "add":
+            return self.add(a, b)
+
+    def add(self, a, b):
+        return 0  # Placeholder
 
 if __name__ == "__main__":
     calc = Calculator()
