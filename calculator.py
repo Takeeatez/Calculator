@@ -8,7 +8,7 @@ class Calculator:
             return self.add(a, b)
 
     def add(self, a, b):
-        return 0  # Placeholder
+        return a + b
 
 if __name__ == "__main__":
     calc = Calculator()
