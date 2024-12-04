@@ -3,9 +3,14 @@ class Calculator:
     def __init__(self):
         print("Calculator initialized")
 
-    def calculate(self, operation, a, b):
+     def calculate(self, operation, a, b):
         if operation == "add":
             return self.add(a, b)
+        elif operation == "subtract":
+            return self.subtract(a, b)
+
+    def subtract(self, a, b):
+        return 0  # Placeholder
 
     def add(self, a, b):
         return a + b
